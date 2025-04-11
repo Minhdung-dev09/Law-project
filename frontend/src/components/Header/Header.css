@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #dbdbdb;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.header-left-logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.header-menu {
+  display: flex;
+  justify-content: center;
+}
+.header-menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #202020;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  color: #000;
+  list-style: none;
+}
+
+.header-right {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+.header-right-search {
+  width: 200px;
+  height: 30px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.header-right-search input {
+  width: 170px;
+  height: 30px;
+  border: none;
+}
+.header-right-search .icon-search {
+  width: 25px;
+  height: 25px;
+  margin-top: 2.6px;
+  margin-left: 2px;
+  border: 1px solid #ff0303;
+  border-radius: 10px;
+  background-color: rgb(245, 171, 217);
+  cursor: pointer;
+}
+.loginsignup {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.loginsignup .loginsignup-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid #ff0303;
+  margin-right: 1px;
+}
+.loginsignup-btn {
+  width: 75px;
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.loginsignup-btn:hover {
+  background-color: bisque;
+}
+.menu-item hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: rgb(239, 45, 20);
+}
